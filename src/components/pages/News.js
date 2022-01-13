@@ -39,7 +39,11 @@ const News = () => {
 
     const getData = async (e) => {
         try {
-            const res = await axios.get('https://newsapi.org/v2/everything?q=tesla&from=2021-12-13&sortBy=publishedAt&apiKey=1e198cdb99c54100ae2921183d7ea00f');
+            const res = await axios.get('https://newsapi.org/v2/everything?q=tesla&from=2021-12-13&sortBy=publishedAt&apiKey=1e198cdb99c54100ae2921183d7ea00f', {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
             setData(res.data.articles)
             console.log(res.data);
         } catch (error) {
