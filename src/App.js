@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './components/pages/nabbar/Header';
-import News from './components/pages/News';
-import Posts from './components/pages/Posts';
+import Routing from './Routes';
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <News/>
-      {/* <Posts/> */}
+      <BrowserRouter>
+        <Fragment>
+          <Header />
+          <Routing />
+        </Fragment>
+      </BrowserRouter>
     </div>
   )
 }
