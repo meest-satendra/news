@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import NewsTabs from './NewsTabs';
 import { Divider } from '@mui/material';
-import logo1 from '../../assets/logo2.jpg'
+import logo1 from '../../assets/logo.png'
 
 export default function ButtonAppBar() {
   return (
@@ -18,18 +18,17 @@ export default function ButtonAppBar() {
           color: '#000'
         }}>
           <Toolbar>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <img src={logo1} width='100' height='' alt='logo' />
+            </Typography>
             <IconButton
               size="large"
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{ mr: 2 }}
-            >
+              sx={{ mr: 2 }}>
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              <img src={logo1} width='100' height='' alt='logo' />
-            </Typography>
             {/* <Button color="inherit">Login</Button> */}
           </Toolbar>
         </AppBar>

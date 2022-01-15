@@ -24,28 +24,6 @@ const NewsTabs = () => {
                 <Tab label="Tech" />
                 <Tab label="Modeling" />
                 <Tab label="Fasion" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
-                <Tab label="Item Seven" />
             </Tabs>
         </Box>
     );
