@@ -5,10 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #787878;
+  background-color: #acacac65;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ .reactSlick{
+  height: 50% !important;
+  width: 100%!important;
+  border-radius: 30px;
+}
+.reactSlickDiv {
+  height: 300px;
+  width: 0% !important;
+  margin: 10px;
+}
+.reactSlickImg{
+  border-radius: 30px;
+}
+
+ .slick-slide .slick-cloned{
+  width: 0% !important;
+  overflow: hidden;
+}
+@media screen and (min-width: 300px) {
+  .reactSlickImg{
+    width: 250px;
+    height: 300px;
+  }
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color: rgba(228, 57, 57, 0.87) !important;
+  font-weight: bold;
+}
+.MuiTabs-indicator.css-1aquho2-MuiTabs-indicator{
+  display: none !important;
 }
